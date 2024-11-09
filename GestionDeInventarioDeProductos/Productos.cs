@@ -19,7 +19,7 @@ namespace GestionDeInventarioDeProductos
 
         public override string ToString()
         {
-            return $"Nombre: {Nombre}, Precio: {Precio:C}";
+            return $"Nombre: {Nombre}, Precio: {Precio:C}"; 
         }
     }
 
