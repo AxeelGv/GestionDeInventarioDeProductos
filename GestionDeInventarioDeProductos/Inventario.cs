@@ -76,7 +76,7 @@ namespace GestionDeInventarioDeProductos
         public IEnumerable<Productos> FiltrarYOrdenarProductos(decimal precioMinimo)
         {
             return productos.Where(p => p.Precio > precioMinimo)
-                            .OrderBy(p => p.Precio);
+                            .OrderBy(p => p.Precio); 
         }
 
     }
